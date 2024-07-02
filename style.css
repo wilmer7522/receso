@@ -1,0 +1,70 @@
+.contenedor{ 
+    width: 100%;
+    height: 5883px;
+    
+}
+
+
+.top{
+    position: fixed;
+    background-color: blue;
+    width: 100vw;
+    height: 8vw;
+    margin-top: -8vw;
+    z-index: 2;
+}
+
+.fondo{
+    background-image: url(imagenes/Fondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 1000px;
+    margin-top: 8vw;
+}
+
+.cajon{
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 55vw;
+    border-radius: 30px;
+    padding-top: 1vw ;
+}
+
+.cajon .letraConsulta{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 2.5vw;
+}
+
+.divDatos{
+    display: block;
+    justify-content: center;
+    margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+}
+
+#datos{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9vw;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+
+#identificacion{
+    width: 25vw;
+    height: 2vw;
+    margin-top: -1vw;
+}
+
