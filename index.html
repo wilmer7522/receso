@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingreso Solidario</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="contenedor">
-        
-            <header class="top">
 
-            </header>
-            
+        <header class="top">
+            <a class="inicio" href="#cajon">Inicio</a>
+            <a class="inicio" href="#ingresoID">¿Que es?</a>
+            <img class="logo" src="imagenes/gobiernodecolombia.png" alt="">
+            <a class="inicio" href="">Entrega</a>
+            <button class="botonConsulta">
+                <p class="letraco">Consultar</p>
+            </button>
+        </header>
+
 
         <div class="fondo">
-            
-            <div class="cajon">
 
-                <p class="letraConsulta">Consulta tu estado del <p class="letraConsulta">Ingreso</p> <p class="letraConsulta">Solidario</p></p>
+            <div id="cajon">
+
+                <p class="letraConsulta">Consulta tu estado del
+                <p class="letraConsulta">Ingreso</p>
+                <p class="letraConsulta">Solidario</p>
+                </p>
                 <div class="divDatos">
-                    <p id="datos">Por favor ingresa tus datos personales para revisar el estado de entrega</p> <p id="datos">de tu ingreso.</p>
+                    <p id="datos">Por favor ingresa tus datos personales para revisar el estado de entrega de tu
+                        ingreso.</p>
                 </div>
 
                 <div class="menu">
-                    <label for="" id="tipoD" >
-                        <p>Tipo de Documento</p>
-                        <select name="identificacion" id="identificacion">
+                    <label for="">
+                        <p class="letraMenu">Tipo de Documento</p>
+                        <select name="identificacion" id="identificacion1">
                             <option value="cedula">Cedula de Ciudadania</option>
                             <option value="tarjeta">Tejeta de Identidad</option>
                             <option value="extrenjeria">Cedula de Extranjeria</option>
@@ -34,13 +46,100 @@
 
                         </select>
                     </label>
+                    <div>
+                        <label for="" id="">
+                            <p class="letraMenu">Numero de Documento</p>
+                        </label>
+                        <input id="identificacion" type="text">
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <p class="letraMenu">Primer Nombre</p>
+                        </label>
+                        <input id="identificacion" type="text">
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <p class="letraMenu">Primer Apellido</p>
+                        </label>
+                        <input id="identificacion" type="text">
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <p class="letraMenu">Fecha de Expedicion del Documento</p>
+                        </label>
+                        <input id="identificacion2" type="date">
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <p class="letraMenu">Telefono Móvil</p>
+                        </label>
+                        <input id="identificacion" type="text">
+                        <div class="botonA">
+                            <button class="boton2">
+                                <p>Consultar</p>
+                            </button>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+
+
+
+            </div>
+            <div class="ingreso">
+                <h2>Ingreso Solidario</h2>
+                <p>Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más
+                    afectadas y que no pertenezcan a ningún programa social, un subsidio por $160.000</p>
+            
+                    <div class="botonA">
+                        <button class="boton2">
+                            <p>Consultar</p>
+                        </button>
+                    </div>
+                </div>
+        </div>
+        <p id="ingresoID" ></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div >
+            <div id="ingresoS" >
+                <p>¿Qué es el Ingreso Solidario?</p>
+            </div>
+            <div class="caja2">
+                
+    
+                <div class="contenido">
+                    <p>Es un esquema mediante el cual se entrega una transferencia monetaria en favor de los hogares en situación de pobreza y vulnerabilidad que no sean beneficiarios de programas sociales del Estado.</p>
+                
+                    
+                        <p>Los hogares en condición de pobreza y vulnerabilidad, afectados en sus ingresos como consecuencia de la pandemia del coronavirus , que no hagan parte de los programas sociales “Familias en Acción”, “Colombia Mayor”, “ Jóvenes en Acción” y “Devolución del IVA” podrán acceder a esta medida social.</p>
                 </div>
                 
+    
+                <div class="paracaidas">
+                    <img class="para" src="imagenes/Diseño sin título.png" alt="">
+                </div>
             </div>
-
+        </div>
+        <div class="etapas">
+            <p>Conoce las etapas de entrega</p>
+            <img class="flecha" src="imagenes/Icon ionic-ios-arrow-down.svg" alt="">
         </div>
         
+
         
+
     </div>
 </body>
+
 </html>

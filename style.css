@@ -1,6 +1,28 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(imagenes/Fondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-position-y: 7.5vw;
+    
+}
+
 .contenedor{ 
     width: 100%;
     height: 5883px;
+    
+}
+
+.caja2{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: space-around;
     
 }
 
@@ -11,47 +33,97 @@
     width: 100vw;
     height: 8vw;
     margin-top: -8vw;
+    margin-left: -0.4vw;
     z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo{
+    width: 15vw;
+}
+
+.inicio{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.botonConsulta{
+    border-radius: 50px;
+    width: 10vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+.letraco{
+    font-size: 1.5vw;
+    
+}
+
+.ingreso{
+    margin-top: 10vw;
+    text-align: center;
+    width: 40vw;
+
+}
+
+.ingreso h2{
+    font-size: 3vw;
+}
+
+.ingreso p{
+    font-size: 2vw;
+}
+
+.debido{
+    display: flex;
+    justify-content: center;
+    margin: 20vw;
 }
 
 .fondo{
-    background-image: url(imagenes/Fondo.png);
-    background-size: 100%;
+    display: flex;
+    position: relative;
+    top: 5vw;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 1000px;
+    height: 49vw;
     margin-top: 8vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
 }
 
-.cajon{
+#cajon{
     position: relative;
-    top: 10vw;
-    left: 10vw;
     background-color: rgb(255, 255, 255);
-    width: 40vw;
-    height: 55vw;
+    width: 35vw;
+    height: 40vw;
     border-radius: 30px;
-    padding-top: 1vw ;
 }
 
-.cajon .letraConsulta{
+#cajon .letraConsulta{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: -2vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    font-size: 2.5vw;
+    margin-bottom: -1.5vw;
+    font-size: 1.5vw;
 }
 
 .divDatos{
-    display: block;
+    display: flex;
     justify-content: center;
-    margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+    margin: 0vw 5vw -1vw 5vw;
+    flex-direction: column;
 }
 
 #datos{
-    display: flex;
-    justify-content: center;
     font-size: 0.9vw;
 
 }
@@ -59,12 +131,97 @@
 .menu{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0vw;
 
+}
+
+.letraMenu{
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.botonA{
+    margin-top: 1.5vw;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.boton2{
+    background-color: #157ffb;
+    width: 10vw;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+.boton2 p{
+    font-size: 1vw;
+}
+
+#identificacion1{
+    width: 25vw;
+    height: 2vw;
+    font-size: 1vw;
 }
 
 #identificacion{
     width: 25vw;
-    height: 2vw;
-    margin-top: -1vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
 }
+#identificacion2{
+    width: 25vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+#ingresoS{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+.contenido{
+    text-align: center;
+    width: 40vw;
+    display: flex;
+    font-size: 1.5vw;
+    flex-direction: column;
+
+}
+
+.paracaidas{
+    display: flex;
+    align-items: center;
+}
+
+.para{
+    width: 35vw;
+}
+
+
+
+.etapas{
+    margin-top: -7vw;
+    margin-left: 17vw;
+    flex-direction: column;
+}
+
+.etapas p{
+    opacity: 50%;
+    font-size: 1.5vw;
+}
+
+.flecha{
+    position: relative;
+    bottom: 1.3vw;
+    margin-left: 8vw;
+    opacity: 50%;
+    width: 2vw;
+}
+
+
 
