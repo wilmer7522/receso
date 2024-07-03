@@ -12,6 +12,11 @@ body{
     
 }
 
+#ini{
+    position: absolute;
+    margin-top: -10vw;
+}
+
 .contenedor{ 
     width: 100%;
     height: 5883px;
@@ -29,13 +34,13 @@ body{
 
 .top{
     position: fixed;
-    background-color: blue;
+    background-color: #3266cc;
     width: 100vw;
     height: 8vw;
     margin-top: -8vw;
     margin-left: -0.4vw;
     z-index: 2;
-    display: flex;
+   display: flex;
     justify-content: space-around;
     align-items: center;
 
@@ -91,22 +96,20 @@ body{
     display: flex;
     position: relative;
     top: 5vw;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 49vw;
     margin-top: 8vw;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    
+
 }
 
+
+
 #cajon{
-    position: relative;
     background-color: rgb(255, 255, 255);
     width: 35vw;
-    height: 40vw;
+   height: auto;
     border-radius: 30px;
+    
 }
 
 #cajon .letraConsulta{
@@ -317,6 +320,39 @@ body{
     opacity: 50%;
     width: 2vw;
 
+}
+
+@media only screen and (max-width: 768px) {
+    #cajon{
+       width: 60%;
+        height: 60vw;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        
+        
+       
+        
+    }
+    .letraMenu{
+        margin-bottom: -2vw;
+    }
+    #identificacion1{
+        width: 50vw;
+        height: 5vw;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
 
 
